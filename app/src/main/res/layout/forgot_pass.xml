@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:background="@drawable/ggh"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/change"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:elevation="5dp"
+        android:text="Forgot Password"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:textSize="30dp"/>
+
+    <EditText
+         android:textColor="#fff"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#fff"
+        android:hint="Username"
+        android:textColorHint="#fff"
+        android:id="@+id/user"/>
+
+    <Spinner
+
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/spinner"
+        android:background="#fff"
+        />
+
+    <Button
+        android:layout_marginBottom="30dp"
+        android:onClick="set"
+        android:id="@+id/set"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="Continue >>"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"/>
+
+</LinearLayout>
+    </ScrollView>

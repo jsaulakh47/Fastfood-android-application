@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/images2"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textStyle="italic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:text="Hi,"
+            android:id="@+id/hi"
+            android:textColor="#fff"/>
+
+        <TextView
+            android:textStyle="italic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:text=""
+            android:id="@+id/name"
+            android:textColor="#fff"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:id="@+id/linear_make"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/img_order"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:layout_margin="5dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/my_order" />
+
+        <TextView
+            android:id="@+id/txt_order"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Make a Order"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:weightSum="2">
+
+        <LinearLayout
+            android:id="@+id/linear_pro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/img_pro"
+                android:layout_width="120dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:scaleType="fitXY"
+                android:src="@drawable/pro" />
+
+            <TextView
+                android:id="@+id/txt_pro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Profile"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear_order"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/img_my_order"
+
+                android:layout_width="120dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:scaleType="fitXY"
+                android:src="@drawable/fav" />
+
+            <TextView
+                android:id="@+id/txt_my_order"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="My Order"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:id="@+id/linear_history"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:weightSum="2">
+
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/img_oh"
+
+                android:layout_width="120dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:scaleType="fitXY"
+                android:src="@drawable/his" />
+
+            <TextView
+                android:id="@+id/txt_oh"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Order History"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear_feed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/img_feed"
+                android:layout_width="120dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:scaleType="fitXY"
+                android:src="@drawable/feedd" />
+
+            <TextView
+                android:id="@+id/txt_feed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Feedback"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/add_to_cart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:background="@color/colorOrange"
+        android:elevation="5dp"
+        android:text="Logout"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+</LinearLayout>

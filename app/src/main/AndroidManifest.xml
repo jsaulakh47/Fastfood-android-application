@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.samsung.fastfood">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <service android:name=".ExampleService" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:hardwareAccelerated="false"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" >
+
+            android:label="@string/title_activity_main2">
+        </activity>
+        <activity android:name=".SignUp" />
+
+        <activity android:name=".Home"/>
+
+
+        <activity android:name=".Splash">
+          <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ItemsClass"/>
+        <activity android:name=".ItemVariantClass"/>
+        <activity android:name=".Orders"/>
+        <activity android:name=".Feed_Back"/>
+        <activity android:name=".OrderHistroy"/>
+        <activity android:name=".Profile"/>
+        <activity android:name=".All_Feed"/>
+        <activity android:name=".Change_Pass"/>
+        <activity android:name=".Forgot_Pass"/>
+        <activity android:name=".Forgot_Pass2"/>
+        <activity android:name=".Final_Order"/>
+        <activity android:name="Main_Menu"/>
+
+
+    </application>
+
+</manifest>

@@ -1,0 +1,27 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="@android:style/Theme.Holo.Light">
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+
+        <item name="android:actionBarStyle">@style/customcolor</item>
+    </style>
+    <style name="customcolor" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">#ff6714</item>
+        <item name="android:titleTextStyle">@style/customtextcolor</item>
+    </style>
+    <style name="customtextcolor" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="ProgressBarStyle" parent="@android:style/Widget.ProgressBar.Horizontal"/>
+
+    
+
+</resources>

@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ff01"
+
+    >
+<LinearLayout
+    android:clickable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+    <TextView
+        android:id="@+id/text_create"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="40dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="italic"
+        android:textColor="#ffffff"
+        android:text="Create Account"/>
+
+    <EditText
+
+        android:backgroundTint="#fff"
+        android:textColor="#fff"
+        android:id="@+id/firstname"
+        android:singleLine="true"
+        android:inputType="textCapWords"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="First Name"
+        android:textColorHint="@color/colorWhite"/>
+
+    <EditText
+        android:backgroundTint="#fff"
+
+        android:textColor="#fff"
+        android:inputType="textCapWords"
+        android:id="@+id/lastname"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Last Name"
+        android:textColorHint="@color/colorWhite"/>
+
+    <EditText
+        android:backgroundTint="#fff"
+
+        android:textColor="#fff"
+        android:inputType="date"
+        android:id="@+id/b_date"
+        android:singleLine="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Date of Birth"
+        android:textColorHint="@color/colorWhite"/>
+
+    <EditText
+        android:backgroundTint="#fff"
+        android:maxLength="10"
+        android:textColor="#fff"
+
+        android:id="@+id/phn_no"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone"
+        android:inputType="phone"
+        android:textColorHint="@color/colorWhite"/>
+
+
+    <EditText
+        android:backgroundTint="#fff"
+
+        android:textColor="#fff"
+
+        android:id="@+id/email_add"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@color/colorWhite"/>
+    <EditText
+        android:backgroundTint="#fff"
+
+        android:textColor="#fff"
+
+        android:id="@+id/address"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Address"
+        android:inputType="textCapWords"
+        android:textColorHint="@color/colorWhite"/>
+    <EditText
+        android:backgroundTint="#fff"
+
+        android:textColor="#fff"
+
+        android:id="@+id/city"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="City"
+        android:inputType="textCapWords"
+        android:textColorHint="@color/colorWhite"/>
+
+
+    <EditText
+        android:backgroundTint="#fff"
+
+        android:singleLine="true"
+        android:textColor="#fff"
+        android:maxLength="15"
+        android:id="@+id/s_user"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:textColorHint="@color/colorWhite"/>
+    <Spinner
+
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/spinner"
+        android:background="@color/colorWhite"
+        />
+
+    <EditText
+        android:backgroundTint="#fff"
+
+        android:textColor="#fff"
+
+        android:id="@+id/answer"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Answer"
+        android:inputType="textCapWords"
+        android:textColorHint="@color/colorWhite"/>
+
+    <EditText
+        android:backgroundTint="#fff"
+
+        android:maxLength="15"
+        android:textColor="#fff"
+        android:id="@+id/s_pass"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColorHint="@color/colorWhite"/>
+
+    <EditText
+        android:maxLength="15"
+        android:textColor="#fff"
+        android:id="@+id/s_conpass"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:textColorHint="@color/colorWhite"/>
+    <Button
+        android:onClick="onButtonSignUp"
+        android:id="@+id/submit"
+        android:background="@color/colorWhite"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:text="Submit"
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorOrange"
+        android:textSize="20sp"/>
+
+</LinearLayout>
+</ScrollView>

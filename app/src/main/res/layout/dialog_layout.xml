@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:gravity="center_horizontal"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:text="QUANTITY"
+        android:id="@+id/e_head"
+        android:layout_marginTop="10dp"/>
+
+    <LinearLayout
+        android:paddingBottom="10dp"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <Button
+            android:onClick="main"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/e_minus"
+        android:text="-"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        />
+        <TextView
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:text="null"
+            android:textAlignment="center"
+            android:paddingTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:background="@color/colorOrange"
+            android:id="@+id/e_txt"
+            />
+
+        <Button
+            android:onClick="main"
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/e_add"
+            android:text="+"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:paddingBottom="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:weightSum="2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/set"
+            android:text="Set"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/cancel"
+            android:text="Cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
